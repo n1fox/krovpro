@@ -4,6 +4,12 @@
 
 @media (max-width:1024px){
 
+    .hero{
+        min-height: auto;
+        align-items: flex-start;
+        padding-top: 130px;
+    }
+
     .hero-container{
         grid-template-columns:1fr;
     }
@@ -37,30 +43,32 @@
 
 @media (max-width:768px){
 
+    .hero{
+        min-height: auto;
+        align-items: flex-start;
+        padding: 110px 20px 40px;
+    }
+
     .header-container{
         padding:15px 20px;
     }
 
-.nav{
-    display:none;
-    position:absolute;
-    top:80px;
-    right:20px;
-    background:#1c1c1c;
-    padding:20px;
-    border-radius:15px;
-    flex-direction:column;
-    gap:20px;
-    min-width:220px;
-    box-shadow:0 10px 30px rgba(0,0,0,.4);
-}
-
-.nav.active{
-    display:flex;
-}
-
-    .hero{
+    .nav{
+        display:none;
+        position:absolute;
+        top:80px;
+        right:20px;
+        background:#1c1c1c;
         padding:20px;
+        border-radius:15px;
+        flex-direction:column;
+        gap:20px;
+        min-width:220px;
+        box-shadow:0 10px 30px rgba(0,0,0,.4);
+    }
+
+    .nav.active{
+        display:flex;
     }
 
     .hero-main h1{
