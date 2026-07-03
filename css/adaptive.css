@@ -1,0 +1,107 @@
+/* ===========================
+        Планшеты
+=========================== */
+
+@media (max-width:1024px){
+
+    .hero-container{
+        grid-template-columns:1fr;
+    }
+
+    .hero-sidebar{
+        order:2;
+    }
+
+    .hero-main{
+        min-height:550px;
+    }
+
+    .about-container{
+        grid-template-columns:1fr;
+    }
+
+    .services-grid,
+    .works-grid,
+    .advantages-grid,
+    .steps-grid,
+    .contacts-grid,
+    .footer-container{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+/* ===========================
+        Телефоны
+=========================== */
+
+@media (max-width:768px){
+
+    .header-container{
+        padding:15px 20px;
+    }
+
+.nav{
+    display:none;
+    position:absolute;
+    top:80px;
+    right:20px;
+    background:#1c1c1c;
+    padding:20px;
+    border-radius:15px;
+    flex-direction:column;
+    gap:20px;
+    min-width:220px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+.nav.active{
+    display:flex;
+}
+
+    .hero{
+        padding:20px;
+    }
+
+    .hero-main h1{
+        font-size:34px;
+    }
+
+    .overlay{
+        padding:35px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .btn{
+        text-align:center;
+    }
+
+    .services-grid,
+    .works-grid,
+    .advantages-grid,
+    .steps-grid,
+    .contacts-grid,
+    .footer-container{
+        grid-template-columns:1fr;
+    }
+
+    .about{
+        padding:80px 20px;
+    }
+
+    .services,
+    .works,
+    .advantages,
+    .steps,
+    .contacts{
+        padding:80px 20px;
+    }
+
+    h2{
+        font-size:34px !important;
+    }
+
+}
